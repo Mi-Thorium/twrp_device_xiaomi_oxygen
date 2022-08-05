@@ -28,3 +28,6 @@ BOARD_OXYGEN_DYNPART_PARTITION_LIST := system system_ext product vendor odm
 
 # Recovery
 TARGET_RECOVERY_DEVICE_DIRS += $(DEVICE_PATH)
+
+# TWRP
+TW_MAX_BRIGHTNESS := 4095
